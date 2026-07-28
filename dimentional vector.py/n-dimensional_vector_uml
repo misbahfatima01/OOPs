@@ -1,0 +1,16 @@
+      UML OF DIMENSIONAL VECTOR 
+
++----------------------------------+
+|         DimensionalVector        |
++----------------------------------+
+| - _coords: list.                 |
+| d:int->dimension                 |
++----------------------------------+
+| + __init__(dimension: int)       |
+| + __len__() : int                |
+| + __getitem__(j: int): int.      |
+| + __setitem__(j: int, value:int) |
+| + __add__(other:DimensionalVector) |
+| + __eq__(other:DimensionalVector) |
+| + __str__(): str                 |
++----------------------------------+
